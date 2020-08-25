@@ -5,7 +5,7 @@ import threading
 ClientCount = 0
 client_identities = {}
 cl_id = 0
-output_file = 'output3.txt'
+output_file = 'output.txt'
 
 class Node:
     def __init__(self,val,client_id):
