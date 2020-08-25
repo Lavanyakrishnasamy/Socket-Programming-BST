@@ -4,8 +4,8 @@ from random import randint
 import time
 
 print 'No of numbers to be send to the server :', str(sys.argv[1])  
-npm =  str(sys.argv[1])
-r = int(npm)        
+non =  str(sys.argv[1])
+r = int(non)        
   
 ClientSocket = socket.socket()          
   
